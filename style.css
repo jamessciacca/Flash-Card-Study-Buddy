@@ -1,0 +1,70 @@
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* Global */
+.text-center {
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+/*** Custom Styles ***/
+.main-header{
+    margin: 25px 0 45px;
+}
+/* Start Button */
+.card-wrap #start {
+    padding: 10px 0;
+    min-width: 250px;
+    font-size: 1rem;
+    background-color: #00e9ab;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+/* Cards Box */
+.card-display{
+    padding: 25px;
+    border: 1px solid #aaa;
+    max-width: 500px;
+    /* this centers it! */
+    margin: 0 auto;
+}
+
+.card-display #question-display{
+    margin-bottom: 15px;
+}
+
+.card-display #timer-display {
+    font-size: 2rem;
+}
+
+.card-display #answer-display{
+    background-color: #00e636;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-display #next{
+    padding: 8px 35px;
+    font-size: .9rem;
+    background-color: #999;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-display #next:hover{
+    background-color: #898989;
+}
+/* Responsive Styles */
